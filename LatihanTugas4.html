@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CV sederhana - Tugas Latihan</title>
+</head> </html>
+
+ <style>
+ body {
+     font-family: 'Segoe UI', Arial, sans-serif;
+     margin: 0;
+     background-color: #fcfeff;
+     color: #222;
+ }
+
+ /* HEADER */
+ header {
+     background-color: #355485;
+     color: white;
+     text-align: center;
+     padding: 20px 0;
+ }
+
+ header h1 {
+     margin: 0;
+     font-size: 28px;
+ }
+
+ /* NAV */
+ nav {
+     background-color: #4f90c6;
+     text-align: center;
+     padding: 10px 0;
+ }
+
+ nav a {
+     color: white;
+     text-decoration: none;
+     margin: 0 15px;
+     font-weight: bold;
+ }
+
+ nav a:hover {
+     text-decoration: underline;
+ }
+
+ /* LAYOUT */
+ .container {
+     width: 90%;
+     max-width: 1100px;
+     margin: 20px auto;
+     overflow: auto;
+ }
+
+ section {
+     float: left;
+     width: 68%;
+     background-color: white;
+     border: 1px solid #ddd;
+     border-radius: 8px;
+     padding: 16px;
+     box-sizing: border-box;
+ }
+
+ aside {
+     float: right;
+     width: 28%;
+     background-color: #cbdde9;
+     border: 1px solid #bbb;
+     border-radius: 8px;
+     padding: 16px;
+     box-sizing: border-box;
+ }
+
+ h2 {
+     color: #355485;
+     margin-top: 0;
+ }
+
+ article img {
+     width: 100%;
+     border-radius: 6px;
+     margin-bottom: 10px;
+ }
+
+ /* TABEL DATA */
+ table {
+     border-collapse: collapse;
+     width: 100%;
+     margin: 12px 0;
+ }
+
+ th,
+ td {
+     border: 1px solid #ccc;
+     padding: 8px;
+     text-align: left;
+ }
+
+ th {
+     background-color: #f1f5f9;
+ }
+
+ /* IFRAME */
+ iframe {
+     width: 100%;
+     height: 250px;
+     border: 1px solid #999;
+     border-radius: 6px;
+ }
+
+ /* FOOTER */
+ footer {
+     clear: both;
+     background-color: #355485;
+     color: white;
+     text-align: center;
+     padding: 14px 0;
+     margin-top: 20px;
+ }
+
+ footer a {
+     color: #cbdde9;
+     text-decoration: none;
+ }
+
+ footer a:hover {
+     text-decoration: underline;
+ }
+
+ /* RESPONSIVE SEDIKIT */
+ @media (max-width: 768px) {
+
+     section,
+     aside {
+         float: none;
+         width: 100%;
+     }
+ }
+ </style>
+ 
+
+ <header><b style="font-size: 30px">Portal Fulan - Berita Koding 
+ <p>Lucu tapi keren😎💻</p></b>
+ "dimana Bug bukan musuh, tapi guru kehidupan."</b></header>
+  
+   <nav> 
+   <a style="width: 20%" href="#Berita">Berita Utama Iframe</a>
+   <a style="width: 20%" href="#fakta">Fakta Unik Kontak Redaksi</a>
+   <a style="width: 20%" href="#belajar">Video &</a>
+   </nav>
+    
+   <div style="
+      background: #f1f5f9;
+      border-radius: 8px;
+      padding: 15px;">
+   <section id="Fulan Tertangkap Basah Ngoding Jam 3 Pagi Demi Push ke GitHub"> 
+   <h2 id="Berita"> Fulan Tertangkap Basah Ngoding Jam 3 Pagi Demi Push ke GitHub </h2> 
+   <img src="https://exampllee.vercel.app/assets/G07.gif" width="100%">
+  
+   <p><b>
+      Jakarta, Portal Fulan</b> - Warga sekitar dikejutkan dengan suara ketikan keyboard yang tak kunjung berhenti. Setelah diselidiki, ternyata sumber suara berasal dari kamar Fulan yang sedang men-deploy project-nya ke Vercel.</p>
+   
+    <p>"Aku cuma mau pastiin web-nya responsif sebelum tidur," ujar Fulan sambil menyeruput kopi dingin yang udah cair dari jam 10 malam.</p>
+    
+    <p>Menurut pengakuan saksi, Fulan sudah tiga malam tidak tidur gara-gara memperbaiki error <code>vite-plugin-pwa missing.</code> Namun akhirnya, project berhasil jalan dan langsung mendapat 5 ⭐ di GitHub dari teman satu kos-nya.</p>
+    
+    <p><strong> Fakta Koding Fulan: </strong>  </p>
+     <ul>
+       <li>Suka debugging sambil dengerin musik anime</li>
+       <li>Pernah typo <i>console.log</i> jadi <i>consola.lag<</i>/li>
+       <li>Setiap error dianggap "ujian cinta terhadap sintaks"</li>
+     </ul>
+       <p><strong> Top 3 Error Paling Sering Ditemui </strong></p>
+       <ol type="1">
+         <li>Missing semicolon (;) setelah jam 2 pagi</li>
+         <li>Path image gak kebaca di deploy</li>
+         <li>"Cannot read property 'undefined' of undefined" - klasik!</li>
+       </ol>
+       <p><strong> Daftar Konsumsi Lembur Fulan </strong></p>  
+       
+         <table style="width:100%; border-collapse:collapse; text-align:center; font-size:14px;">
+            <tr style="background-color:#4f90c6; color:white;">
+            </tr>
+         <tr style="background-color:#f0f7ff;">
+                <th style="border:1px solid #999; padding:6px;">No </th>
+                <th style="border:1px solid #999; padding:6px;">Menu</th>
+                <th style="border:1px solid #999; padding:6px;">Jam Konsumsi</th>
+                <th style="border:1px solid #999; padding:6px;">Status</th>
+            </tr>
+              <tr>
+                <td style="border:1px solid #999; padding:6px;">1</td>
+                <td style="border:1px solid #999; padding:6px;">kopi gula aren</td>
+                <td style="border:1px solid #999; padding:6px;">22.00</td>
+             <td style="border:1px solid #999; padding:6px;">habis</td>
+            </tr>
+             <tr>
+                <td style="border:1px solid #999; padding:6px;">2</td>
+                <td style="border:1px solid #999; padding:6px;">mie goreng hype</td>
+                <td style="border:1px solid #999; padding:6px;">00.30</td>
+                <td style="border:1px solid #999; padding:6px;">habis juga</td>
+            </tr>
+             <tr>
+               <td style="border:1px solid #999; padding:6px;">3</td>
+                <td style="border:1px solid #999; padding:6px;">roti sobek</td>
+                <td style="border:1px solid #999; padding:6px;">02.00</td>
+                <td style="border:1px solid #999; padding:6px;">habis lapar banget soalnya</td>
+            </tr>
+            </table>
+            <p>Dan inilah motto hidup nya:</p>
+            <blockquote style="background:f1f5f9; padding:8px; border-left:4px solid #151b54;"> Pengalaman adalah Guru yang Terbaik (experience is good a teacher) </blockquote>
+   <div id="konten"></div>
+  
+<h3 style="color:#355485;font-size:20px" id="belajar"> Belajar HTML Langsung dari Sumbernya </h3>
+<p>Berikut cuplikan referensi situs belajar favorit Fulan:</p>
+  <iframe class="frame" src="https://www.petanikode.com/kategori/" tittle="contoh iframe"></iframe>
+  </div>
+  </section>
+  <aside>
+    
+  
+     <div style="
+      background: #f1f5f9;
+      border-radius: 8px;
+      border: 1px solid;
+      padding: 15px;">
+       
+  <h4 style="color:#355485;font-size:20px" id="fakta"> Fakta Unik Tentang Fulan</h4>
+  <ul>
+    <li>Ngoding pakai mode gelap bahkan di siang bolong.</li>
+    <li>Punya 7 repository bernama <i>final-final-v3.</i></li>
+    <li>Pernah rename folder jadi "fix-beneran-terakhir".</li>
+  </ul>
+  <p><strong>Jadwal Kegiatan Harian</strong></p>
+    <table style="width:100%; border-collapse:collapse; text-align:center; font-size:14px;">
+         <tr style="background-color:#f0f7ff;">
+                <th style="border:1px solid #999; padding:6px;">waktu </th>
+                <th style="border:1px solid #999; padding:6px;">kegiatan</th>
+            </tr>
+              <tr>
+                <td style="border:1px solid #999; padding:6px;">09.00</td>
+                <td style="border:1px solid #999; padding:6px;">Kelas Pemrograman Web</td>
+            </tr>
+             <tr>
+                <td style="border:1px solid #999; padding:6px;">13.00</td>
+                <td style="border:1px solid #999; padding:6px;">Ngopi sambil baca Dokumentasi</td>
+            </tr>
+            <tr>
+                <td style="border:1px solid #999; padding:6px;">21.00</td>
+                <td style="border:1px solid #999; padding:6px;">Debug sampai lupa waktu </td>
+            </tr>
+            </table>
+             </div></aside>
+<footer>
+  <p>Hubungi redaksi: <a href="redaksi@portalfun.id"> redaksi@portalfun.id</p></a>
+<a href="#" style="text-decoration: none">⬆️Kembali ke atas</a>
+<p>&copy;2025 Portal Fulan - Semua bug milik bersama🐞</p>
+</footer>
+
+  
+  
+   
